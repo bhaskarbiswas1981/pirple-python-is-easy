@@ -15,6 +15,21 @@ album_artist=""
 disc_number=0
 track=0
 
+#Declare functions
+def funcGenre(songGenere):
+    genre=songGenere
+    return genre
+
+def funcArtist(songArtist):
+    artist=songArtist
+    return genre
+
+def funcYear(songYear):
+    year=songYear
+    return genre
+
+
+
 #Prnt all the songs meta-data
 print(song_name)
 print(artist)
@@ -28,3 +43,7 @@ print(album)
 print(album_artist)
 print(disc_number)
 print(track)
+
+print(funcGenre("I Want My Now"))
+print(funcArtist("Hollywood Vampires"))
+print(funcYear(2018))
